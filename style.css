@@ -7,11 +7,19 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-nav{
-    position: sticky;
-    top: 0;
-    background-color: bisque;
-    padding: 10px 20px;
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  padding: 15px 30px;
+
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
 }
 
 nav ul{
