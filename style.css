@@ -30,14 +30,23 @@ nav ul{
     margin: 0;
     padding: 0;
 }
-nav a{
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
+
+nav a {
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 999px;
+  color: white;
+  transition: 0.3s;
 }
 
-nav a:hover{
-    color: brown;
+nav a:hover {
+  background: rgba(255, 255, 255, 0.2);
+  color: brown;
+}
+
+nav a.active {
+  background: white;
+  color: black;
 }
 
 section {
