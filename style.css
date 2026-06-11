@@ -1,6 +1,5 @@
-html {
-    /* scroll-behavior: smooth; */
-    scroll-padding-top: 39px;
+* {
+    box-sizing: border-box;
 }
 
 body{
