@@ -71,6 +71,63 @@ section.active h1{
     transform: translateY(0);
 }
 
+.hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+
+  padding: 0 50px;
+}
+
+.hero-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-text {
+  max-width: 500px;
+}
+
+.hero-cta {
+  margin: 20px 0;
+}
+
+.hero-tech {
+  margin-top: 10px;
+}
+
+.profile-frame {
+  width: 250px;
+  height: 250px;
+
+  border-radius: 50%;
+  border: 3px solid white;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  padding: 10px 20px;
+  border-radius: 999px;
+  text-decoration: none;
+  margin-right: 10px;
+  transition: 0.3s;
+}
+
+.btn.primary {
+  background: white;
+  color: black;
+}
+
+.btn.secondary {
+  border: 1px solid white;
+  color: white;
+}
+
 #aboutMe{
     background-color: cadetblue;
 }
